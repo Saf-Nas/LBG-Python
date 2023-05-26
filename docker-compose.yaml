@@ -1,11 +1,10 @@
-version: "3.8"
+version: "3.11"
 services:
-  flask-app:
-    build: ./dcompose
-    image: lbg:v1
-    container_name: containerlbg
+  py-app:
+  build: ./
+  ports:
     - target: 5000
-      published: 5000
-      protocol: tcp
+    published: 5000
+    protocol: tcp
  
     

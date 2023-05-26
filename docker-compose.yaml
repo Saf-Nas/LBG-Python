@@ -1,8 +1,8 @@
-version: "3.11"
+version: "3.8"
 services:
-  lbg-python:
-    build: ./LBG-Python
-    ports:
+  lbg:
+    image: lbg:v1
+    container_name: containerlbg
     - target: 5000
       published: 5000
       protocol: tcp

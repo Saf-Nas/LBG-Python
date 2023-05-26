@@ -1,6 +1,6 @@
 version: "3.11"
 services:
-  LBG-Python:
+  lBG-Python:
     build: ./LBG-Python
     ports:
     - target: 5000

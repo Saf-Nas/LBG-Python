@@ -1,5 +1,6 @@
 version: "3.8"
-  lbg:
+  dcompose:
+    build: ./dcompose
     image: lbg:v1
     container_name: containerlbg
     - target: 5000

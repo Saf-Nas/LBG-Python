@@ -1,6 +1,6 @@
 version: "3.11"
 services:
-  containerlbg:
+  LBG-Python:
     build: ./LBG-Python
     ports:
     - target: 5000

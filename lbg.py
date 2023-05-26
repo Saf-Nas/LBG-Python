@@ -218,4 +218,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     PORT = args.PORT
-    HOST = 'localhost'
+    HOST = '0.0.0.0'

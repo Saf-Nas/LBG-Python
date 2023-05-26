@@ -1,5 +1,6 @@
 version: "3.8"
-  dcompose:
+services:
+  flask-app:
     build: ./dcompose
     image: lbg:v1
     container_name: containerlbg
